@@ -1,14 +1,22 @@
 *{
     font-family: 'Avenir', 'Century-Gothic', 'Franklin-Gothic', 'Arial', 'Sans-serif';
 }
+html {
+    max-width: 100%;
+}
 header, footer {
     padding: 20px;
     background-color: rgb(73, 106, 146);
+    width: max-content;
     color: white;
-    width: 100%;
+    display: flex;
+    margin: 25px;
+    flex-wrap: wrap;
 }
-h1{
-    display: inline-block;
+@media only screen and (min-width:768px){
+    header, footer{
+        width: auto;
+    }
 }
 nav {
     float: right;  
@@ -18,8 +26,8 @@ ul {
 }
 ul li {
     display:inline-block;
-    margin-left: 25px;
 }
+
 a:link {
     text-decoration: none;
     cursor:pointer
@@ -28,20 +36,34 @@ a:visited {
     color: white;
     text-decoration: none;
 }
-
+#personal-info {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 25px;
+    min-width: 500px;
+}
 #profile-pic {
-    margin-left: 20px;
-    width: 300px;
-    height: 225px;
+    width: 100% ;
+}
+
+#verbage {
+    padding: 25px;
+}
+
+@media screen and (min-width: 768px){
+    #profile-pic {
+     margin-left: 20px;
+     width: 400px;
+     height: 300px;
+    }
+    #verbage {
+        width: auto;
+    }
 }
 
 main {
-    margin: 20px;
+    margin: 25px;
 }
-p {
-    display:block;
-}
-
 #work {
     display: flex;
     flex-wrap: wrap;
@@ -49,21 +71,25 @@ p {
 .container {
     position: relative;
   }
-  .project-title {
+.project-title {
     position: absolute;
     bottom: 10px;
     left: 10px;
     background-color: rgb(29, 27, 27);
     color: white;
   }
-  #first-project{
-    width: 900px;
-    height: 600px;
+#first-project {width: 100%;}
+.other-projects {width:45%;}
+@media only screen and (min-width=900px){
+    #first-project {
+        width: 900px;
+        height: 600px;
+      }
+    .other-projects {
+        width: 399px;
+        height: 266px;
   }
-  .other-projects{
-    width: 450px;
-    height: 300px;
-  }
+}
 footer{
     display: flex;
 }

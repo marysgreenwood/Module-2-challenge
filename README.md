@@ -3,7 +3,7 @@ Professional Portfolio
 
 
 ## Description
-This website highlights my accomplishments as a developer for potential employers and collaborators
+This website highlights my accomplishments as a developer for potential employers and collaborators. As I am still trying to accrue some accomplishments, all text is currently filler and external links refer to pre-existing websites of which I am fond. All images are stock photos.
 
 
 ## License
