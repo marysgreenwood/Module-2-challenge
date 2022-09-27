@@ -9,29 +9,51 @@
 </head>
 
 <body>
-    <h1>Mary Greenwood</h1>
-    <nav>
-        <ul>
-            <li>About me</li>
-            <li>Work</li>
-            <li>Contact me</li>
-            <li>Resume</li>
+    <header>
+      <h1>Mary Greenwood</h1>
+        <nav>
+          <ul>
+            <li><a href="#about-me" alt="About me">About me</a></li>
+            <li><a href="#work" alt="Work">Work</a></li>
+            <li><a href="#contact" alt="Contact me">Contact me</a></li>
+            <li><a href="./assets/images/Greenwood Resume Starter.pdf" alt="Resume">Resume</a></li>
         </ul> 
-    </nav>
+      </nav>
+    </header>
+    <section id="personal-info">
     <img id="profile-pic" src="./assets/images/profile-pic.jpeg" alt="Profile Picture"/>
+      <div id="verbage">
+        <h2>About me</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+    </section>
     <main>
-        <section id="about-me" class="primary-information">
-            <h2>About me</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <h2>Work</h2>
+        <section id="work">
+            <div class="container">
+               <img src="./assets/images/stair-placeholder.jpg" alt="Spiral Stair Image" title="First Project" id="first-project"/>
+               <div class="project-title"><a href="https://www.wordreference.com/">First Project</a> </div>
+            </div>
+            <div class="container">
+              <img src="./assets/images/flower-placeholder.jpg" alt="Flower Image" title="Second Project" class="other-projects"/>
+              <div class="project-title"> <a href="https://www.w3schools.com/">Second Project</a></div>
+            </div>
+            <div class="container">
+              <img src="./assets/images/poloroids-placeholder.jpg" alt="Natural Park Poloroids Image" title="Third Project" class="other-projects"/>
+            <div class="project-title"> <a href="https://developer.mozilla.org/en-US/">Third Project</a></div>
+            </div>
         </section>
-        <section id="work" class="primary-information">
-            <h2>Work</h2>
-        </section>
-        <Section id="resume" class="primary-information">
-            <h2>Resume</h2>
-        </Section>
-        <Section id="contact">
-            <h2>Contact me</h2>
-        </Section>
-        
     </main>
+        <footer>
+            <h2>Contact me</h2>
+        <Section id="contact">
+          <ul>
+            <li><a href="mailto:email@example.com" alt="Email" id="email">email@example.com</a></li>
+            <li>555.555.5555</li>
+            <li><a href="https://www.linkedin.com/in/mary-greenwood-30b88450/" alt="linkedin">LinkedIn</a></li>
+           <li><a href="https://www.instagram.com/marysgreenwood/?hl=en" alt="Instagram">Instagram</a></li>
+          </ul>
+        </section>
+    </footer>
+        
+   

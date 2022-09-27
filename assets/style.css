@@ -1,0 +1,79 @@
+*{
+    font-family: 'Avenir', 'Century-Gothic', 'Franklin-Gothic', 'Arial', 'Sans-serif';
+}
+header, footer {
+    padding: 20px;
+    background-color: rgb(73, 106, 146);
+    color: white;
+    width: 100%;
+}
+h1{
+    display: inline-block;
+}
+nav {
+    float: right;  
+}
+ul {
+    list-style-type: none;
+}
+ul li {
+    display:inline-block;
+    margin-left: 25px;
+}
+a:link {
+    text-decoration: none;
+    cursor:pointer
+}
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+#profile-pic {
+    margin-left: 20px;
+    width: 300px;
+    height: 225px;
+}
+
+main {
+    margin: 20px;
+}
+p {
+    display:block;
+}
+
+#work {
+    display: flex;
+    flex-wrap: wrap;
+}
+.container {
+    position: relative;
+  }
+  .project-title {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: rgb(29, 27, 27);
+    color: white;
+  }
+  #first-project{
+    width: 900px;
+    height: 600px;
+  }
+  .other-projects{
+    width: 450px;
+    height: 300px;
+  }
+footer{
+    display: flex;
+}
+  #contact {
+    display: inline-flex;
+    justify-content: flex-end;
+  }
+
+ 
+  #email{
+    color:white;
+    text-decoration: none;
+  }
